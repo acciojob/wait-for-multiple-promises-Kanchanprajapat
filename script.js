@@ -22,6 +22,10 @@ function updateTable(results) {
     if (loadingRow) {
         loadingRow.remove();
     }
+	const loadingRow = document.getElementById('loading');
+if (loadingRow) {
+    loadingRow.remove();
+}
 
     let totalTime = 0;
 
